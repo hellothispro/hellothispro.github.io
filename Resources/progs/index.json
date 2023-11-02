@@ -1,20 +1,50 @@
 {
   "1": {
-    "ProgramName": "first Program",
-    "ContentToDisplay": "Sum of N numbers is this proper",
-    "Link": "./Resources/progs/Adder.java",
-    "Downloadable": true
-  },
-  "2": {
-    "ProgramName": "second Program",
-    "ContentToDisplay": "That is the program of the file",
-    "Link": "./Resources/progs/Animal.java",
+    "ProgramName": "UNIX_Commands",
+    "ContentToDisplay": "Linux commands for accessing directory files",
+    "File": "UnixCmds.txt",
     "Downloadable": false
   },
+  "2": {
+    "ProgramName": "System_Calls",
+    "ContentToDisplay": "Implementation of System Calls in UNIX",
+    "File": "SysCallsProg.c",
+    "Downloadable": true
+  },
   "3": {
-    "ProgramName": "third Program",
-    "ContentToDisplay": "This is Third Program",
-    "Link": "./Resources/progs/Apple.java",
+    "ProgramName": "n_Numbers",
+    "ContentToDisplay": "Sum of \"N\" Natural Numbers",
+    "File": "nNumbers.sh",
+    "Downloadable": true
+  },
+  "4": {
+    "ProgramName": "Fibonacci_Series",
+    "ContentToDisplay": "Fibonacci Series",
+    "File": "fibonacci.sh",
+    "Downloadable": true
+  },
+  "5": {
+    "ProgramName": "Reverse_And_Find_String_Len",
+    "ContentToDisplay": "Reverse the string and calculate the length of the string",
+    "File": "string.sh",
+    "Downloadable": true
+  },
+  "6": {
+    "ProgramName": "Palindrome_Or_Not",
+    "ContentToDisplay": "Find if given string is palindrome or not",
+    "File": "palindrome.sh",
+    "Downloadable": true
+  },
+  "7": {
+    "ProgramName": "Memory_Management_Paging",
+    "ContentToDisplay": "Implementation of memory management - paging",
+    "File": "memManage.c",
+    "Downloadable": true
+  },
+  "8": {
+    "ProgramName": "Matrix_Addition_In_Child_Process",
+    "ContentToDisplay": "Matrix addition in child process using shared memory",
+    "File": "matrixAdd.c",
     "Downloadable": true
   }
 }

@@ -1,0 +1,44 @@
+1) " cat " – create a new file and read file
+	Syntax: cat > filename.txt
+		Create a new file
+			ex: cat > program.txt
+		
+	Syntax: cat filename
+		To display the file content
+			ex: cat program.txt
+2) " mkdir " – create a new folderdirectory
+	Syntax: mkdir folderName
+		ex: mkdir Hello
+	
+3) " cd " – to navigate to a folderdirectory
+	Syntax: cd folderName
+		ex: cd Hello
+		
+4) " pwd " – displays the present working directory
+	Syntax: pwd
+		ex: pwd
+		
+5) " ls " - displays the list of files present in the current directory
+	Syntax: ls
+		Prints the list of files in the current directory
+			
+	Syntax: ls -l
+		Prints the list of files in long Listing Mode
+		
+	Syntax: ls -a
+		Prints the list of files, including Hidden Files
+		
+	Syntax: ls -x
+		Prints the list of files in a system specific type
+		
+6) " mv " – Move a file to a directory
+	Syntax: mv SourceFile destinationDirectory
+		ex: mv program.txt Hello
+		
+7) " rm " – Remove a File
+	Syntax: rm fileName
+		ex: rm program.txt
+	
+8) " rmdir " – Remove a directory
+	Syntax: rmdir directoryName
+		ex: rmdir Hello

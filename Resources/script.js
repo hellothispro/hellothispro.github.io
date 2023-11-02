@@ -17,7 +17,7 @@ function createPane(programId, programData) {
   dwnldBtnDiv.className = 'dwnld_btn';
 
   const aTag = document.createElement('a');
-  aTag.href = programData.Link;
+  aTag.href = './Resources/progs/files/' + programData.File;
   aTag.className = 'atag';
   if (programData.Downloadable) {
     aTag.setAttribute('download', '');

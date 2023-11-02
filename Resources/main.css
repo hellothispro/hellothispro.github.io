@@ -8,30 +8,56 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  scroll-behavior: smooth;
 }
 
-.container {
+#container {
   width: 96vw;
   height: 96vh;
   background-color: rgb(80, 80, 80);
-  border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
   display: flex;
-  flex-direction: row;
-  justify-content: baseline;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
-  flex-wrap: wrap;
+.container::-webkit-scrollbar-track {
+  background-color: rgb(80, 80, 80);
+}
+.container::-webkit-scrollbar-track-piece {
+  background-color: rgb(80, 80, 80);
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: rgb(52, 52, 52);
+  border-radius: 25px;
+  border: 2px solid rgb(80, 80, 80);
+  border-top: 4px solid rgb(80, 80, 80);
+  border-bottom: 4px solid rgb(80, 80, 80);
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgba(80, 80, 80, 0);
 }
 
 #pane {
   position: relative;
-  width: 100px;
-  min-width: 100px;
-  max-height: 120px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  height: 180px;
+  min-height: 180px;
+  max-height: 200px;
   background-color: black;
   margin: 10px;
   border-radius: 10px;
+  padding: 0;
 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
@@ -40,6 +66,9 @@ body {
   position: absolute;
   height: 75%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .dwnld_btn {
   position: absolute;
