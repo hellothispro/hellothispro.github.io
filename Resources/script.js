@@ -40,10 +40,15 @@ fetch('./Resources/progs/index.json')
   .then((response) => response.json())
   .then((jsonData) => {
     // Loop through the JSON data and create "pane" div elements
-    for (const programId in jsonData) {
-      const programData = jsonData[programId];
-      const pane = createPane(programId, programData);
-      document.getElementById('container').appendChild(pane); // Append to the container div
+    if (Object.keys(jsonData).length === 0) {
+      document.getElementById('no_progs_div').className = 'no_progs_visible';
+    } else {
+      document.getElementById('no_progs_div').className = 'no_progs_hidden';
+      for (const programId in jsonData) {
+        const programData = jsonData[programId];
+        const pane = createPane(programId, programData);
+        document.getElementById('container').appendChild(pane); // Append to the container div
+      }
     }
   })
   .catch((error) => {
