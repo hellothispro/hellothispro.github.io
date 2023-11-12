@@ -3,7 +3,7 @@
     "ProgramName": "UNIX_Commands",
     "ContentToDisplay": "Linux commands for accessing directory files",
     "File": "UnixCmds.txt",
-    "Downloadable": false
+    "Downloadable": true
   },
   "2": {
     "ProgramName": "System_Calls",

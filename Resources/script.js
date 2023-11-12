@@ -16,19 +16,40 @@ function createPane(programId, programData) {
   const dwnldBtnDiv = document.createElement('div');
   dwnldBtnDiv.className = 'dwnld_btn';
 
-  const aTag = document.createElement('a');
-  aTag.href = './Resources/progs/files/' + programData.File;
-  aTag.className = 'atag';
+  const aTagOpen = document.createElement('a');
+  aTagOpen.href = './Resources/progs/files/' + programData.File;
+  aTagOpen.id = 'atag';
+  aTagOpen.className = 'open_a';
+
+  const btnOpen = document.createElement('button');
+  btnOpen.id = 'btn';
+  btnOpen.className = 'open_btn';
+  btnOpen.textContent = 'Open';
+
+  aTagOpen.appendChild(btnOpen);
+  dwnldBtnDiv.appendChild(aTagOpen);
+
   if (programData.Downloadable) {
-    aTag.setAttribute('download', '');
+    const aTagDwnld = document.createElement('a');
+    aTagDwnld.href = './Resources/progs/files/' + programData.File;
+    aTagDwnld.id = 'atag';
+    aTagDwnld.className = 'download_a';
+    aTagDwnld.setAttribute('download', '');
+
+    const btnDwnld = document.createElement('button');
+    btnDwnld.id = 'btn';
+    btnDwnld.className = 'download_btn';
+
+    const imgDwnld = document.createElement('img');
+    imgDwnld.id = 'download_icon_img';
+    imgDwnld.className = 'download_icon_img';
+    imgDwnld.src = './Resources/download_icon.png';
+
+    btnDwnld.appendChild(imgDwnld);
+    aTagDwnld.appendChild(btnDwnld);
+    dwnldBtnDiv.appendChild(aTagDwnld);
   }
 
-  const btn = document.createElement('button');
-  btn.className = 'btn';
-  btn.textContent = 'Get';
-
-  aTag.appendChild(btn);
-  dwnldBtnDiv.appendChild(aTag);
   paneDiv.appendChild(questionDiv);
   paneDiv.appendChild(dwnldBtnDiv);
 
