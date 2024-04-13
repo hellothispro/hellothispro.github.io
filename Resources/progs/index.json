@@ -1,5 +1,97 @@
-<<<<<<< HEAD
-{}
-=======
-{}
->>>>>>> 8dc54b5c0194fc830a6ebb6fd831195d9c1bbe8f
+{
+  "1": {
+    "ProgramName": "List_Using_Tkinter",
+    "ContentToDisplay": "List Using Tkinter",
+    "File": "Ex1_NoDigits-ListsTkinter_/listsUsingTkinter.py",
+    "Downloadable": true
+  },
+  "2": {
+    "ProgramName": "No_Of_Digits",
+    "ContentToDisplay": "Number of Digits in the given number",
+    "File": "Ex1_NoDigits-ListsTkinter_/noOfDigits.py",
+    "Downloadable": true
+  },
+  "3": {
+    "ProgramName": "Age_Calculator_Using_Tkinter",
+    "ContentToDisplay": "Age Calculator Using Tkinter",
+    "File": "Ex2_BigNSmall-AgeCalc_/ageCalcUsingTkinter.py",
+    "Downloadable": true
+  },
+  "4": {
+    "ProgramName": "Biggest_And_Smallest_Digit",
+    "ContentToDisplay": "Biggest and Smallest Digit in the given number",
+    "File": "Ex2_BigNSmall-AgeCalc_/biggestAndSmallestDigit.py",
+    "Downloadable": true
+  },
+  "5": {
+    "ProgramName": "Perform_Shutdown_Using_Tkinter",
+    "ContentToDisplay": "Perform Shutdown Using Tkinter",
+    "File": "Ex3_ShutdownTkinter-OddEven_/shutdownUsingTkinter.py",
+    "Downloadable": true
+  },
+  "6": {
+    "ProgramName": "Odd_And_Even_Digits",
+    "ContentToDisplay": "Number of Odd and Even Digits in the given number",
+    "File": "Ex3_ShutdownTkinter-OddEven_/findOddEvenDigits.py",
+    "Downloadable": true
+  },
+  "7": {
+    "ProgramName": "Check_Palindrome",
+    "ContentToDisplay": "Check if the given number is Palindrome or not",
+    "File": "Ex4_CheckPalindrome-DigitalClock_/checkPalindrome.py",
+    "Downloadable": true
+  },
+  "8": {
+    "ProgramName": "Digital_Clock_Using_Tkinter",
+    "ContentToDisplay": "Digital Clock Using Tkinter",
+    "File": "Ex4_CheckPalindrome-DigitalClock_/digitalClockUsingTkinter.py",
+    "Downloadable": true
+  },
+  "9": {
+    "ProgramName": "MessageBox_Using_Tkinter",
+    "ContentToDisplay": "Message Box Using Tkinter",
+    "File": "Ex5_MessageBox-SocketProgram_/messageBoxUsingTkinter.py",
+    "Downloadable": true
+  },
+  "10": {
+    "ProgramName": "Socket_Programming_Server",
+    "ContentToDisplay": "Socket Programming - Server Script",
+    "File": "Ex5_MessageBox-SocketProgram_/SocketProgramming/server.py",
+    "Downloadable": true
+  },
+  "11": {
+    "ProgramName": "Socket_Programming_Client",
+    "ContentToDisplay": "Socket Programming - Client Script",
+    "File": "Ex5_MessageBox-SocketProgram_/SocketProgramming/client.py",
+    "Downloadable": true
+  },
+  "12": {
+    "ProgramName": "Number_Of_Occurrences_Of_Characters_Iterative",
+    "ContentToDisplay": "Number of Occurrences of Characters in the given string Using Iterative Method",
+    "File": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_iterative.py",
+    "Downloadable": true
+  },
+  "13": {
+    "ProgramName": "Number_Of_Occurrences_Of_Characters_Recursive",
+    "ContentToDisplay": "Number of Occurrences of Characters in the given string Using Recursive Method",
+    "File": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_recursive.py",
+    "Downloadable": true
+  },
+  "14": {
+    "ProgramName": "List_Insert_Delete",
+    "ContentToDisplay": "Insert, Delete and Reverse Elements in the List",
+    "File": "Ex7_ListInsertDelete-SocketProgram_/listInsertDelete.py",
+    "Downloadable": true
+  },
+  "15": {
+    "ProgramName": "Factorial_Using_Recursion",
+    "ContentToDisplay": "Factorial of a number using Recursion",
+    "File": "Ex8_AgeCalc-Factorial_/findFactorialUsingRecursion.py",
+    "Downloadable": true
+  },
+  "16": {
+    "ProgramName": "Number_Of_Vowels_And_Consonants",
+    "ContentToDisplay": "Number of Vowels and Consonants in the given string",
+    "File": "Ex9_VowelsConsonants-ShutdownTkinter_/noOfVowelsAndConsonants.py"
+  }
+}

@@ -110,6 +110,16 @@ button#btn {
 }
 
 a.open_a,
+a.download_a {
+  cursor: default;
+}
+
+button.open_btn,
+button.download_btn {
+  cursor: pointer;
+}
+
+a.open_a,
 button.open_btn {
   width: 90%;
   height: 85%;
