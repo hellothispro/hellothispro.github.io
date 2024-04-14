@@ -17,7 +17,7 @@ function createPane(programId, programData) {
   dwnldBtnDiv.className = 'dwnld_btn';
 
   const aTagOpen = document.createElement('a');
-  aTagOpen.href = './Resources/progs/files/' + programData.File;
+  aTagOpen.href = './Resources/progs/files/' + programData.ReadFile;
   aTagOpen.id = 'atag';
   aTagOpen.className = 'open_a';
 
@@ -31,7 +31,7 @@ function createPane(programId, programData) {
 
   if (programData.Downloadable) {
     const aTagDwnld = document.createElement('a');
-    aTagDwnld.href = './Resources/progs/files/' + programData.File;
+    aTagDwnld.href = './Resources/progs/files/' + programData.DownloadFile;
     aTagDwnld.id = 'atag';
     aTagDwnld.className = 'download_a';
     aTagDwnld.setAttribute('download', '');
