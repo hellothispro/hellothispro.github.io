@@ -65,15 +65,15 @@
   "10": {
     "ProgramName": "Socket_Programming_Server",
     "ContentToDisplay": "Socket Programming - Server Script",
-    "ReadFile": "Ex5_MessageBox-SocketProgram_/SocketProgramming/server.txt",
-    "DownloadFile": "Ex5_MessageBox-SocketProgram_/SocketProgramming/server.py",
+    "ReadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/server.txt",
+    "DownloadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/server.py",
     "Downloadable": true
   },
   "11": {
     "ProgramName": "Socket_Programming_Client",
     "ContentToDisplay": "Socket Programming - Client Script",
-    "ReadFile": "Ex5_MessageBox-SocketProgram_/SocketProgramming/client.txt",
-    "DownloadFile": "Ex5_MessageBox-SocketProgram_/SocketProgramming/client.py",
+    "ReadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/client.txt",
+    "DownloadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/client.py",
     "Downloadable": true
   },
   "12": {
