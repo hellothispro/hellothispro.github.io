@@ -1,50 +1,114 @@
 {
   "1": {
-    "ProgramName": "UNIX_Commands",
-    "ContentToDisplay": "Linux commands for accessing directory files",
-    "File": "UnixCmds.txt",
+    "ProgramName": "List_Using_Tkinter",
+    "ContentToDisplay": "List Using Tkinter",
+    "ReadFile": "Ex1_NoDigits-ListsTkinter_/listsUsingTkinter.txt",
+    "DownloadFile": "Ex1_NoDigits-ListsTkinter_/listsUsingTkinter.py",
     "Downloadable": true
   },
   "2": {
-    "ProgramName": "System_Calls",
-    "ContentToDisplay": "Implementation of System Calls in UNIX",
-    "File": "SysCallsProg.c",
-    "Downloadable": false
+    "ProgramName": "No_Of_Digits",
+    "ContentToDisplay": "Number of Digits in the given number",
+    "ReadFile": "Ex1_NoDigits-ListsTkinter_/noOfDigits.txt",
+    "DownloadFile": "Ex1_NoDigits-ListsTkinter_/noOfDigits.py",
+    "Downloadable": true
   },
   "3": {
-    "ProgramName": "n_Numbers",
-    "ContentToDisplay": "Sum of \"N\" Natural Numbers",
-    "File": "nNumbers.sh",
-    "Downloadable": false
+    "ProgramName": "Age_Calculator_Using_Tkinter",
+    "ContentToDisplay": "Age Calculator Using Tkinter",
+    "ReadFile": "Ex2_BigNSmall-AgeCalc_/ageCalcUsingTkinter.txt",
+    "DownloadFile": "Ex2_BigNSmall-AgeCalc_/ageCalcUsingTkinter.py",
+    "Downloadable": true
   },
   "4": {
-    "ProgramName": "Fibonacci_Series",
-    "ContentToDisplay": "Fibonacci Series",
-    "File": "fibonacci.sh",
-    "Downloadable": false
+    "ProgramName": "Biggest_And_Smallest_Digit",
+    "ContentToDisplay": "Biggest and Smallest Digit in the given number",
+    "ReadFile": "Ex2_BigNSmall-AgeCalc_/biggestAndSmallestDigit.txt",
+    "DownloadFile": "Ex2_BigNSmall-AgeCalc_/biggestAndSmallestDigit.py",
+    "Downloadable": true
   },
   "5": {
-    "ProgramName": "Reverse_And_Find_String_Len",
-    "ContentToDisplay": "Reverse the string and calculate the length of the string",
-    "File": "string.sh",
-    "Downloadable": false
+    "ProgramName": "Perform_Shutdown_Using_Tkinter",
+    "ContentToDisplay": "Perform Shutdown Using Tkinter",
+    "ReadFile": "Ex3_ShutdownTkinter-OddEven_/shutdownUsingTkinter.txt",
+    "DownloadFile": "Ex3_ShutdownTkinter-OddEven_/shutdownUsingTkinter.py",
+    "Downloadable": true
   },
   "6": {
-    "ProgramName": "Palindrome_Or_Not",
-    "ContentToDisplay": "Find if given string is palindrome or not",
-    "File": "palindrome.sh",
-    "Downloadable": false
+    "ProgramName": "Odd_And_Even_Digits",
+    "ContentToDisplay": "Number of Odd and Even Digits in the given number",
+    "ReadFile": "Ex3_ShutdownTkinter-OddEven_/findOddEvenDigits.txt",
+    "DownloadFile": "Ex3_ShutdownTkinter-OddEven_/findOddEvenDigits.py",
+    "Downloadable": true
   },
   "7": {
-    "ProgramName": "Memory_Management_Paging",
-    "ContentToDisplay": "Implementation of memory management - paging",
-    "File": "memManage.c",
-    "Downloadable": false
+    "ProgramName": "Check_Palindrome",
+    "ContentToDisplay": "Check if the given number is Palindrome or not",
+    "ReadFile": "Ex4_CheckPalindrome-DigitalClock_/checkPalindrome.txt",
+    "DownloadFile": "Ex4_CheckPalindrome-DigitalClock_/checkPalindrome.py",
+    "Downloadable": true
   },
   "8": {
-    "ProgramName": "Matrix_Addition_In_Child_Process",
-    "ContentToDisplay": "Matrix addition in child process using shared memory",
-    "File": "matrixAdd.c",
-    "Downloadable": false
+    "ProgramName": "Digital_Clock_Using_Tkinter",
+    "ContentToDisplay": "Digital Clock Using Tkinter",
+    "ReadFile": "Ex4_CheckPalindrome-DigitalClock_/digitalClockUsingTkinter.txt",
+    "DownloadFile": "Ex4_CheckPalindrome-DigitalClock_/digitalClockUsingTkinter.py",
+    "Downloadable": true
+  },
+  "9": {
+    "ProgramName": "MessageBox_Using_Tkinter",
+    "ContentToDisplay": "Message Box Using Tkinter",
+    "ReadFile": "Ex5_MessageBox-SocketProgram_/messageBoxUsingTkinter.txt",
+    "DownloadFile": "Ex5_MessageBox-SocketProgram_/messageBoxUsingTkinter.py",
+    "Downloadable": true
+  },
+  "10": {
+    "ProgramName": "Socket_Programming_Server",
+    "ContentToDisplay": "Socket Programming - Server Script",
+    "ReadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/server.txt",
+    "DownloadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/server.py",
+    "Downloadable": true
+  },
+  "11": {
+    "ProgramName": "Socket_Programming_Client",
+    "ContentToDisplay": "Socket Programming - Client Script",
+    "ReadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/client.txt",
+    "DownloadFile": "Ex5_MessageBox-SocketProgram_/socketProgramming/client.py",
+    "Downloadable": true
+  },
+  "12": {
+    "ProgramName": "Number_Of_Occurrences_Of_Characters_Iterative",
+    "ContentToDisplay": "Number of Occurrences of Characters in the given string Using Iterative Method",
+    "ReadFile": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_iterative.txt",
+    "DownloadFile": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_iterative.py",
+    "Downloadable": true
+  },
+  "13": {
+    "ProgramName": "Number_Of_Occurrences_Of_Characters_Recursive",
+    "ContentToDisplay": "Number of Occurrences of Characters in the given string Using Recursive Method",
+    "ReadFile": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_recursive.txt",
+    "DownloadFile": "Ex6_MessageBox-NoOfOccurs_/noOfOccurancesOfChar/noOfOccurancesOfChar_recursive.py",
+    "Downloadable": true
+  },
+  "14": {
+    "ProgramName": "List_Insert_Delete",
+    "ContentToDisplay": "Insert, Delete and Reverse Elements in the List",
+    "ReadFile": "Ex7_ListInsertDelete-SocketProgram_/listInsertDelete.txt",
+    "DownloadFile": "Ex7_ListInsertDelete-SocketProgram_/listInsertDelete.py",
+    "Downloadable": true
+  },
+  "15": {
+    "ProgramName": "Factorial_Using_Recursion",
+    "ContentToDisplay": "Factorial of a number using Recursion",
+    "ReadFile": "Ex8_AgeCalc-Factorial_/findFactorialUsingRecursion.txt",
+    "DownloadFile": "Ex8_AgeCalc-Factorial_/findFactorialUsingRecursion.py",
+    "Downloadable": true
+  },
+  "16": {
+    "ProgramName": "Number_Of_Vowels_And_Consonants",
+    "ContentToDisplay": "Number of Vowels and Consonants in the given string",
+    "ReadFile": "Ex9_VowelsConsonants-ShutdownTkinter_/noOfVowelsAndConsonants.txt",
+    "DownloadFile": "Ex9_VowelsConsonants-ShutdownTkinter_/noOfVowelsAndConsonants.py",
+    "Downloadable": true
   }
 }
