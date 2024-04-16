@@ -1,0 +1,1 @@
+Step 1  ->  Open Cisco Packet Tracer and create a new file by: 
